@@ -1,0 +1,62 @@
+// Basic utilities
+
+body {
+  margin: 0px;
+  background-color: #F9F7F6;
+}
+
+.container {
+  // min-height: 100vh; /* will cover the 100% of viewport */
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+// Fonts
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 39.06px;
+  color: #7FB069;
+}
+
+h2 {
+  font-size: 31.25px;
+  color: #7FB069;
+}
+
+h3 {
+  font-size: 25px;
+  color: rgb(50, 50, 50);
+}
+
+p {
+  font-size: 20px;
+  color: rgb(50, 50, 50);
+}
+
+
+// Handling 'a' tag
+
+a {
+  color: #7FB069;
+  transition: opacity 0.3s ease;
+
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #7FB069;
+  opacity: 0.6;
+}
