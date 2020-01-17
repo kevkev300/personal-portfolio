@@ -15,8 +15,8 @@ body {
   display: block;
   position: relative;
   padding-bottom: 100px; /* height of your footer */
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 
@@ -33,16 +33,19 @@ h1, h2 {
 h1 {
   font-size: 39.06px;
   color: #A63446;
+  text-align: center;
 }
 
 h2 {
   font-size: 31.25px;
   color: #A63446;
+  text-align: center;
 }
 
 h3 {
   font-size: 25px;
   color: rgb(50, 50, 50);
+  text-align: center;
 }
 
 p {

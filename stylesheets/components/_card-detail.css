@@ -1,0 +1,51 @@
+.card-detail {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.card-detail-body {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.card-detail-photo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-detail i {
+  color: #A63446;
+}
+
+.card-detail img {
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+
+.card-detail-info {
+  margin-left: 40px;
+  position: relative;
+}
+
+.card-detail-info img {
+  position: absolute;
+  right: 20px;
+  top: -40px;
+}
+
+.card-detail-info h3, p {
+  text-align: left;
+}
+
+.card-detail-info a {
+  opacity: 0.3;
+  margin-left: 10px;
+}
