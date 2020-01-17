@@ -1,8 +1,13 @@
 // Basic utilities
+html {
+  padding: 0px;
+  margin: 0px;
+}
 
 body {
   margin: 0px;
   background-color: #F9F7F6;
+  padding: 0px;
 }
 
 .container {
@@ -27,12 +32,12 @@ h1, h2 {
 
 h1 {
   font-size: 39.06px;
-  color: #7FB069;
+  color: #A63446;
 }
 
 h2 {
   font-size: 31.25px;
-  color: #7FB069;
+  color: #A63446;
 }
 
 h3 {
@@ -49,7 +54,7 @@ p {
 // Handling 'a' tag
 
 a {
-  color: #7FB069;
+  color: #A63446;
   transition: opacity 0.3s ease;
 
 }
@@ -57,6 +62,6 @@ a {
 a:hover {
   text-decoration: none;
   cursor: pointer;
-  color: #7FB069;
+  color: #A63446;
   opacity: 0.6;
 }
