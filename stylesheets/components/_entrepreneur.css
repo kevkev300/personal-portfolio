@@ -1,16 +1,11 @@
 .card-entrepreneur {
-  width: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
+  width: 300px;
+  padding: 40px;
   transition: background-color 0.3 ease;
+  text-align: center;
 }
 
 .card-entrepreneur:hover {
-
-  background-size: cover;
-  background-position: center;
   background-color: rgba(214, 167, 14, 0.2);
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
@@ -18,14 +13,12 @@
   transition: background-color 0.3 ease;
 }
 
-.card-entrepreneur-inner {
-  width: 80%;
-  height: 80%;
-  text-align: center;
+.card-entrepreneur img {
+  width: 70%;
 }
 
-.card-entrepreneur-inner img {
-  width: 70%;
+.card-entrepreneur h3 {
+  margin-bottom: 0px;
 }
 
 .card-entrepreneur-info:active {
