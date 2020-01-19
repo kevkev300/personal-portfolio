@@ -1,6 +1,14 @@
+.entrepreneur-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;*/
+}
+
 .card-entrepreneur {
   width: 300px;
-  padding: 40px;
+  padding: 0 40px;
   transition: background-color 0.3 ease;
   text-align: center;
 }
@@ -23,4 +31,11 @@
 
 .card-entrepreneur-info:active {
   display: block;
+}
+
+.card-entrepreneur-photo-area {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
