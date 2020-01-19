@@ -58,6 +58,7 @@ p {
 a {
   color: #A63446;
   transition: opacity 0.3s ease;
+  text-decoration: none;
 
 }
 
