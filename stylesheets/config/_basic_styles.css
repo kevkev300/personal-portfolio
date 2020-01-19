@@ -1,0 +1,21 @@
+.strong {
+  font-weight: bold;
+}
+
+.color-main {
+  color: #A63446;
+}
+
+.color-sec {
+  color: #D6A70E;
+}
+
+.centered {
+  text-align: center;
+}
+
+.color-main-bg {
+  background-color: rgba(166, 52, 70, 0.2);
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}

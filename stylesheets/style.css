@@ -1,6 +1,7 @@
 @import 'config/_colors.css';
 @import 'config/_fonts.css';
 @import 'config/_utilities.css';
+@import 'config/_basic_styles.css';
 
 @import 'components/_index.css';
-
+@import 'components/_entrepreneur.css';

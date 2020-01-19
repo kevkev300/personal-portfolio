@@ -1,0 +1,41 @@
+.entrepreneur-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;*/
+}
+
+.card-entrepreneur {
+  width: 300px;
+  padding: 0 40px;
+  transition: background-color 0.3 ease;
+  text-align: center;
+}
+
+.card-entrepreneur:hover {
+  background-color: rgba(214, 167, 14, 0.2);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transition: background-color 0.3 ease;
+}
+
+.card-entrepreneur img {
+  width: 70%;
+}
+
+.card-entrepreneur h3 {
+  margin-bottom: 0px;
+}
+
+.card-entrepreneur-info:active {
+  display: block;
+}
+
+.card-entrepreneur-photo-area {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
