@@ -53,7 +53,6 @@ p {
 /* Handling 'a' tag*/
 
 a {
-  font-size: 1.563em;
   color: #A63446;
   transition: opacity 0.3s ease;
   text-decoration: none;
@@ -132,15 +131,15 @@ a:hover {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   h1 {
-    font-size: 3.815em;
+    font-size: 1.953em;
   }
 
   h2 {
-    font-size: 2.441em;
+    font-size: 1.563em;
   }
 
   h3 {
-    font-size: 1.953em;
+    font-size: 1.563em;
   }
 
   .container {
@@ -162,6 +161,7 @@ a:hover {
   h3 {
     font-size: 1.953em;
   }
+
   .container {
     margin-left: 300px;
     margin-right: 300px;
