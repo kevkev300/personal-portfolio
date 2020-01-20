@@ -43,3 +43,12 @@
   background-color: #F9F7F6;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+.links {
+  height: 50vh;
+  padding-top: 40px;
+}
+
+.links a {
+  display: inline-block;
+}
