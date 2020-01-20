@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 30px;
-  padding: 40px;
+  padding: 0 40px 40px 40px;
 }
 
 .about-pic-section {
