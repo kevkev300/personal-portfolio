@@ -29,6 +29,18 @@
         <h2>skills.</h2>
         <div w3-include-html="components_html/_skills.html" class="skills"></div>
       </div>
+
+      <div id="contact" class="section">
+        <h2>contact me.</h2>
+        <script src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+        <div id="myLandbot" style="width: 100%; height: 800px"></div>
+        <script>
+          var myLandbot = new LandbotFrameWidget({
+            container: '#myLandbot',
+            index: 'https://landbot.io/u/H-345822-9EZY4GV1B2WG9S8H/index.html',
+          });
+        </script>
+      </div>
     </div>
 
     <!-- make including partials and content possible -->

@@ -1,3 +1,7 @@
+#skills h2 {
+  margin-top: 0;
+}
+
 .skills-grid {
   display: grid;
   justify-items: center;
