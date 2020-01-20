@@ -53,6 +53,7 @@ p {
 /* Handling 'a' tag*/
 
 a {
+  font-size: 1.563em;
   color: #A63446;
   transition: opacity 0.3s ease;
   text-decoration: none;
@@ -111,6 +112,26 @@ a:hover {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   h1 {
+    font-size: 1.953em;
+  }
+
+  h2 {
+    font-size: 1.563em;
+  }
+
+  h3 {
+    font-size: 1.563em;
+  }
+
+  .container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  h1 {
     font-size: 3.815em;
   }
 
@@ -128,16 +149,19 @@ a:hover {
   }
 }
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-  .container {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-}
-
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+  h1 {
+    font-size: 3.815em;
+  }
+
+  h2 {
+    font-size: 2.441em;
+  }
+
+  h3 {
+    font-size: 1.953em;
+  }
   .container {
     margin-left: 300px;
     margin-right: 300px;

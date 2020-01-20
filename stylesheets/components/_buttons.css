@@ -1,0 +1,28 @@
+.btn-base {
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  margin: 10px;
+  width: 7em;
+  text-align: center;
+
+}
+
+.btn:hover {
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-weight: lighter;
+  }
+
+.btn-main {
+  background-color: rgb(166, 52, 70);
+  color: #F9F7F6;
+  border: 1px solid rgb(166, 52, 70);
+
+}
+
+.btn-main:hover {
+    background-color: rgb(166, 52, 70);
+    color: #F9F7F6;
+    border: 1px solid rgb(166, 52, 70);
+  }
