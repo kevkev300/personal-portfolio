@@ -1,6 +1,6 @@
-@import 'config/_colors.css';
-@import 'config/_fonts.css';
-@import 'config/_utilities.css';
-@import 'config/_basic_styles.css';
+@import 'config/colors.css';
+@import 'config/fonts.css';
+@import 'config/utilities.css';
+@import 'config/basic-styles.css';
 
-@import 'components/_index.css';
+@import 'components/index.css';
