@@ -1,0 +1,24 @@
+.navbar {
+  position: fixed !important;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  align-items: right;
+}
+
+.navbar-lewagon {
+  justify-content: flex-end !important;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.navbar a {
+  text-decoration: underline #A63446 !important;
+}

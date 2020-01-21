@@ -19,3 +19,8 @@
   padding-left: 0.3em;
   padding-right: 0.3em;
 }
+
+.bg-opacity {
+  transition: 0.3 background ease-in-out;
+  background: rgba(0,0,0,0) !important;
+}
