@@ -6,11 +6,11 @@ html {
 
 body {
   margin: 0px;
-  background-color: #F9F7F6;
+  background-color: #F9F7F6 !important;
   padding: 0px;
 }
 
-.container {
+.container-main {
   /* min-height: 100vh;  will cover the 100% of viewport */
   display: block;
   position: relative;
@@ -44,9 +44,9 @@ h3 {
 }
 
 p {
-  font-size: 1.563em;
-  line-height: 1.3em;
-  color: rgb(50, 50, 50);
+  font-size: 1.2rem;
+/*  line-height: 1.3rem;
+*/  color: rgb(50, 50, 50);
 }
 
 
@@ -54,16 +54,16 @@ p {
 
 a {
   color: #A63446;
-  transition: opacity 0.3s ease;
-  text-decoration: none;
+  transition: opacity 0.3s ease !important;
+  text-decoration: none !important;
 
 }
 
 a:hover {
-  text-decoration: none;
-  cursor: pointer;
+  text-decoration: none !important;
+  cursor: pointer !important;
   color: #A63446;
-  opacity: 0.6;
+  opacity: 0.6 !important;
 }
 
 
@@ -72,18 +72,18 @@ a:hover {
 /* Smallest device*/
 @media (min-width: 100px) and (max-width: 575px) {
   h1 {
-    font-size: 1.953em;
+    font-size: 1.953em !important;
   }
 
   h2 {
-    font-size: 1.563em;
+    font-size: 1.563em !important;
   }
 
   h3 {
-    font-size: 1.563em;
+    font-size: 1.563em !important;
   }
 
-  .container {
+  .container-main {
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -91,18 +91,18 @@ a:hover {
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   h1 {
-    font-size: 1.953em;
+    font-size: 1.953em !important;
   }
 
   h2 {
-    font-size: 1.563em;
+    font-size: 1.563em !important;
   }
 
   h3 {
-    font-size: 1.563em;
+    font-size: 1.563em !important;
   }
 
-  .container {
+  .container-main {
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -111,18 +111,18 @@ a:hover {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   h1 {
-    font-size: 1.953em;
+    font-size: 1.953em !important;
   }
 
   h2 {
-    font-size: 1.563em;
+    font-size: 1.563em !important;
   }
 
   h3 {
-    font-size: 1.563em;
+    font-size: 1.563em !important;
   }
 
-  .container {
+  .container-main {
     margin-left: 100px;
     margin-right: 100px;
   }
@@ -131,18 +131,18 @@ a:hover {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   h1 {
-    font-size: 1.953em;
+    font-size: 1.953em !important;
   }
 
   h2 {
-    font-size: 1.563em;
+    font-size: 1.563em !important;
   }
 
   h3 {
-    font-size: 1.563em;
+    font-size: 1.563em !important;
   }
 
-  .container {
+  .container-main {
     margin-left: 100px;
     margin-right: 100px;
   }
@@ -151,18 +151,18 @@ a:hover {
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
   h1 {
-    font-size: 3.815em;
+    font-size: 3.815em !important;
   }
 
   h2 {
-    font-size: 2.441em;
+    font-size: 2.441em !important;
   }
 
   h3 {
-    font-size: 1.953em;
+    font-size: 1.953em !important;
   }
 
-  .container {
+  .container-main {
     margin-left: 300px;
     margin-right: 300px;
   }

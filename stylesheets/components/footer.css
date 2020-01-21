@@ -1,0 +1,52 @@
+/*dependent on .main-container in _utilities.scss*/
+
+.footer {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+/*
+  position: absolute;
+  bottom: 0px;
+  width: 100%;*/
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: #A63446;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  color: #A63446;
+  opacity: 0.6;
+}
+
+.footer .fa-heart {
+  color: #A63446;
+}
+
+
+/*Responsiveness*/
+
+@media(max-width: 444px) {
+  .footer {
+    display: grid;
+    grid-template-column: 1fr;
+    justify-content: center;
+  }
+
+  .footer-copyright {
+    text-align: center;
+  }
+}

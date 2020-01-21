@@ -6,6 +6,8 @@
   display: grid;
   justify-items: center;
   grid-gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .skill {
