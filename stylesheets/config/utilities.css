@@ -6,7 +6,7 @@ html {
 
 body {
   margin: 0px;
-  background-color: #F9F7F6;
+  background-color: #F9F7F6 !important;
   padding: 0px;
 }
 
@@ -44,9 +44,9 @@ h3 {
 }
 
 p {
-/*  font-size: 1.563em;
-  line-height: 1.3em;*/
-  color: rgb(50, 50, 50);
+  font-size: 1.2rem;
+/*  line-height: 1.3rem;
+*/  color: rgb(50, 50, 50);
 }
 
 
