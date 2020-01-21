@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,38 +5,38 @@
 
     <title>Kevin Liebholz</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   </head>
-<!-- <div w3-include-html="components_html/_banner.html" -->
+
   <body>
     <div w3-include-html="components-html/banner.html" class="banner" style="background-image: linear-gradient(rgba(214, 167, 14,0.4),rgba(214, 167, 14,0.4)), url(images/banner.jpg)"></div>
-    <div class="container">
-      <div id="about" class="section">
+    <div class="container-main">
+      <div id="about">
         <h2>about me.</h2>
         <div w3-include-html="components-html/about.html" class="about"></div>
       </div>
 
-      <div id="projects" class="section">
+      <div id="projects">
         <h2>development projects.</h2>
         <div w3-include-html="components-html/projects.html" class="projects"></div>
       </div>
 
-      <div id="entrepreneur" class="section">
+      <div id="entrepreneur">
         <h2>business and entrepreneurial life.</h2>
         <div w3-include-html="components-html/entrepreneur.html" class="projects"></div>
       </div>
 
-      <div id="skills" class="section">
+      <div id="skills">
         <h2>skills.</h2>
         <div w3-include-html="components-html/skills.html" class="skills"></div>
       </div>
 
-      <div id="contact" class="section">
+      <div id="contact">
         <h2>contact me.</h2>
         <script src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
-        <div id="myLandbot" style="width: 100%; height: 800px"></div>
+        <div id="myLandbot" style="width: 100%; height: 80vh"></div>
         <script>
           var myLandbot = new LandbotFrameWidget({
             container: '#myLandbot',
