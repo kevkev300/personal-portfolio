@@ -70,7 +70,7 @@
 @media (min-width: 992px) {
   .card-entrepreneur {
     padding: 40px;
-    width: 300px;
+    width: 400px;
   }
 }
 
@@ -78,6 +78,6 @@
 @media (min-width: 1200px) {
   .card-entrepreneur {
     padding: 40px;
-    width: 300px;
+    width: 400px;
   }
 }
